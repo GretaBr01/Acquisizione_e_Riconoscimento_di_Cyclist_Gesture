@@ -23,7 +23,13 @@ I dati che descrivono ogni ripetizione con relativo tempo di campionamento:
 
 Raccolta dati effettuata con il microcontrollore Arduino Nano 33 BLE Sense Rev 2 e la scheda Olimex Shield EKG-EMG.
 
-## Descrizione Gesti
+## Descrizione Gesti Analizzati
 I gesti vengo rappresentati nell'immagine "Codice_dei_Cisclisti.png"
 
+- Svolta a Destra: Estendere il braccio destro a 90 gradi in linea con la spalla.
+- Stop: Alzare il braccio piegato con il palmo della mano aperto.
+- Pericolo: Battere la mano sul sedere e indicare l'ostacolo con l'indice.
+- Buche: Stendere il braccio nella direzione del pericolo e indicarlo con il dito indice.
+- Detriti: Abbassare il braccio e fare un movimento circolare con la mano tenendo il palmo rivolto verso il terreno.
+- Aggirare un ostacolo: Sventolare il braccio davanti al sedere in direzione opposta al pericolo.
 
