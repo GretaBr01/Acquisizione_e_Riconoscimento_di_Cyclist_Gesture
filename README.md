@@ -29,7 +29,7 @@ Raccolta dati effettuata con il microcontrollore Arduino Nano 33 BLE Sense Rev 2
 Risoluzione ADC 12 bit
 
 ## Descrizione Gesti Analizzati
-I gesti vengo rappresentati nell'immagine "Codice_dei_Cisclisti.png"
+I gesti sono rappresentati nell'immagine "Codice_dei_Cisclisti.png"
 
 - Svolta a Destra: Estendere il braccio destro a 90 gradi in linea con la spalla.
 - Stop: Alzare il braccio piegato con il palmo della mano aperto.
