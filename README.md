@@ -1,9 +1,9 @@
 # MLDLM_progetto
 
-I dati raccolti descrivono il gesto del braccio del ciclista per segnalare 6 situazioni differenti.
+I dati raccolti descrivono i gesti eseguiti da un ciclista per segnalare 6 situazioni differenti.
 
 ## Descrizione Dataset
-La cartella Dataset contiene i file:
+La cartella 'dataset_acc_gir_emg' contiene i file:
 File csv:
 - buche.csv: Segnalazione della presenza di buche sul percorso
 - detriti.csv: Segnalaazione della presenza di detriti sul percorso
@@ -20,8 +20,13 @@ I dati che descrivono ogni ripetizione con relativo tempo di campionamento:
 - Giroscopio: 100 Sa/s
 - Segnale EMG: 1k Sa/s
 
+Range valori corretti dei sensori:
+- range accelerometro: [-4, +4]g +/-0.122 mg
+- range giroscopio: [-2000, +2000]dps +/-70mdps
+- range emg: [0, 4095]
 
 Raccolta dati effettuata con il microcontrollore Arduino Nano 33 BLE Sense Rev 2 e la scheda Olimex Shield EKG-EMG.
+Risoluzione ADC 12 bit
 
 ## Descrizione Gesti Analizzati
 I gesti vengo rappresentati nell'immagine "Codice_dei_Cisclisti.png"
